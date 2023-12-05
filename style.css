@@ -1,0 +1,101 @@
+html{
+    width: 100%;
+    height: 100%;
+
+    background-color: #FAFAF9;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: #6C727F;
+}
+
+/* Tamaño del main */
+#main-captus-desing{
+    width: 25%;
+    height: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: white;
+
+    border-radius: 20px;
+}
+
+/* Tamaño artículo */
+#captus-desing-article{
+    width: 90%;
+    height: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    border-radius: 10px;
+}
+
+/* imagen */
+#captus-desing-figure{
+    width: 92%;
+    height: 40%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Button Tamaño */
+#button-block{
+    width: 92%;
+    height: 6%;
+}
+
+button{
+    width: 25%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+
+    background-color: #E6D6FC;
+
+    color: #883AE1;
+}
+
+/* Section */
+#captus-desing-descripion{
+    width: 92%;
+    height: 40%;
+}
+
+#captus-desing-pagraph{
+    width: 80%;
+}
+
+/* Footer */
+#captus-desing-footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+
+    flex-direction: row-reverse;
+
+    border-top: 1px solid rgb(147, 128, 128);
+}
+
+#captus-desing-creddit{
+    width: 91%;
+}
